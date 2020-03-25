@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0-dev1</Version>
+    <Authors>John Carruthers</Authors>
+    <Description>ProseKit core components.</Description>
+    <Copyright>John Carruthers 2020</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/DevJohnC/ProseKit</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/DevJohnC/ProseKit</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>prosemirror</PackageTags>
+  </PropertyGroup>
+
+</Project>
