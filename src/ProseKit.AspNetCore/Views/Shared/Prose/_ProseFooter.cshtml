@@ -1,0 +1,26 @@
+﻿@using ProseKit
+@inject ProseKit.AspNetCore.Services.ProseContext Context
+<script type="text/javascript">
+@foreach (var schema in Context.RequiredSchemas)
+{
+    <text>var schema = {
+        nodes: @EncodeNodes(schema),
+        marks: @EncodeMarks(schema),
+        schema: {}
+    };</text>
+    <text>prose.schemas[</text>@schema.Name<text>] = schema;</text>
+}
+</script>
+
+@functions
+{
+    string EncodeNodes(Schema schema)
+    {
+        return "{}";
+    }
+
+    string EncodeMarks(Schema schema)
+    {
+        return "{}";
+    }
+}
