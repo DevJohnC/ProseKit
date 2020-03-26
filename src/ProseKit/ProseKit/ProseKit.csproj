@@ -12,6 +12,8 @@
     <RepositoryUrl>https://github.com/DevJohnC/ProseKit</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>prosemirror</PackageTags>
+    <Nullable>enable</Nullable>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
 
 </Project>
